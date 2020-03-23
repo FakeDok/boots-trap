@@ -1,0 +1,86 @@
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.header-container{
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.menu__left{
+    display: flex;
+}
+.menu-left__all-human{
+    font-size: 14px;
+    padding-right: 45px;
+}
+.menu__center{
+    display: flex;
+    padding-right: 70px;
+}
+.menu-center__image-logo{
+}
+.menu-center__title{
+    font-size: 24px;
+    padding-left: 20px;
+}
+.menu-right__pay{
+    color: #212121;
+    font-size: 14px;
+    padding-right: 35px;
+}
+.menu-right__delivery{
+    color: #212121;
+    padding-right: 101px;
+    font-size: 14px;
+}
+.menu-right__image-basket{
+    padding-right: 10px;
+}
+.first-screen{
+    background: #F9F6F1;
+    padding-bottom: 100px;
+}
+.left-right__carousel{
+    display: flex;
+    padding-top: 216px;
+}
+.left__carousel{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.winter-sale{
+    font-size: 30px;
+}
+.sale{
+    font-size: 55px;
+}
+.look-models{
+    width: 240px;
+    height: 55px;
+    background: #D7B399;
+}
+.right__carousel{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    text-align: end;
+}
+.cost{
+    font-size: 24px;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+}
+.sale-cost{
+    font-size: 42px;
+    color: #D84033;
+}
