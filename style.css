@@ -9,22 +9,24 @@
 }
 .menu{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 .menu__left{
     display: flex;
+    justify-content: space-between;
 }
 .menu-left__all-human{
     font-size: 14px;
-    padding-right: 45px;
 }
 .menu__center{
     display: flex;
-    padding-right: 70px;
 }
 .menu-center__image-logo{
+    width: 40px;
+    height: 40px;
 }
 .menu-center__title{
     font-size: 24px;
@@ -45,14 +47,15 @@
 }
 .first-screen{
     background: #F9F6F1;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 .left-right__carousel{
     display: flex;
+    justify-content: space-between;
     padding-top: 216px;
+    padding-bottom: 130px;
 }
 .left__carousel{
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +72,6 @@
     background: #D7B399;
 }
 .right__carousel{
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-items: end;
@@ -83,4 +85,264 @@
 .sale-cost{
     font-size: 42px;
     color: #D84033;
+}
+.free-shiping{
+    background: #212121;
+    padding-top: 80px;
+    padding-bottom: 69px;
+    text-align: center;
+}
+.free-shiping__title-cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free-shiping__title{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.free-shiping__cost{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.free-shiping__discription{
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.men-women-col{
+    padding-top: 60px;
+    background: linear-gradient( to right, #F9F6F1 50%, #F4F4F4 50%);
+}
+.men-women-col-container{
+    display: flex;
+    justify-content: space-around;
+}
+.men-col{
+    display: flex;
+    justify-content: flex-end;
+}
+.img__men-col{
+}
+.men-col__body{
+}
+.men-col__title{
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+.collection-men{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.men-col__discription{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.men-col__arrow{
+    padding: 5px 30px 5px 30px;
+    color: white;
+    background: #D7B399;
+}
+.women-col{
+    display: flex;
+    justify-content: flex-start;
+}
+.img__women-col{
+}
+.women-col__body{
+}
+.women-col__title{
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+.collection-women{
+    font-size: 30px;
+    padding-right: 10px;
+}
+.women-col__discription{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.women-col__arrow{
+    padding: 5px 30px 5px 30px;
+    color: white;
+    background: #D7B399;
+}
+.catalog-container{
+    display: flex;
+    flex-direction: column;
+}
+.catalog__t-short-grey{
+    display: flex;
+    align-items: flex-end;
+    width: 277px;
+    height: 236px;
+    background-image: url(image/t-short-grey.png);
+}
+.catalog__dresses{
+    font-size: 21px;
+    padding-left: 30px;
+}
+.catalog__t-short-yellow{
+    display: flex;
+    align-items: flex-end;
+    width: 277px;
+    height: 236px;
+    background-image: url(image/t-short-yellow.png);
+}
+.catalog__top{
+    display: flex;
+}
+.catalog__bottom{
+    display: flex;
+}
+.new-item{
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.new-item-container{
+    display: flex;
+    flex-direction: column;
+}
+.new-item__new-models{
+    text-align: center;
+    font-size: 36px;
+    color: #212121;
+    padding-bottom: 103px;
+}
+.new-item__all-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 103px;
+}
+.cards{
+    text-align: center;
+    border: 3px dashed #D7B399;
+}
+.image__cards-women{
+    padding-top: 20px;
+}
+.cards__title{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #000000;
+}
+.cards__discription{
+    font-size: 18px;
+    color: #D7B399;
+}
+.new-item__button{
+    display: flex;
+    align-self: center;
+    background: #D7B399;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+}
+.subscribe{
+    padding-top: 72px;
+    padding-bottom: 71px;
+    background: #212121;
+}
+.subscribe__title{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.sibscrube-container{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe__email{
+    background: #F9F6F1;
+    font-size: 12px;
+    color: #8D8D8D;
+    width: 255px;
+    height: 40px;   
+}
+.subscribe__button{
+    background: #D7B399;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 185px;
+    height: 40px;
+}
+.footer{
+    background: #212121;
+    background-size: 100% 311px;;
+    background-repeat: no-repeat;
+    padding-top: 73px;
+    padding-bottom: 78px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__left{
+    padding-right: 200px;
+}
+.footer-left__image-title{
+    display: flex;
+}
+.footer-left__image-logo{
+    width: 40px;
+    height: 40px;
+}
+.footer-left__title{
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.footer-left__discription{
+    padding-top: 32px;
+    width: 200px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.footer__all-column{
+    display: flex;
+    justify-content: space-between;
+}
+.column__title_size{
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-right: 70px;
+}
+.column__discription_size{
+    font-size: 14px;
+    color: #CBCFD4;
+    padding-top: 10px;
+}
+.footer-bottom-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 23px;
+    font-size: 14px;
+    color: #212121;
+}
+@media (max-width:1024px){
+    .menu-right__delivery{
+        padding-right: 40px;
+    }
+    .footer__left{
+        padding-right: 10px;
+    }
+    .image__cards-women{
+        width: 100%;
+    }
+    .collection-men,collection-women{
+        font-size: 20px;
+    }
+    .men-col__title,.women-col__title{
+        font-size: 10px;
+    }
+    .men-col__discription,.women-col__discription{
+        font-size: 10px;
+    }
 }
